@@ -1,5 +1,5 @@
 from typing import List
-from Parking_Lot import *
+from .Parking_Lot import *
 
 class Suv (ParkingLot):
     

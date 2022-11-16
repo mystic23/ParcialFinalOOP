@@ -1,5 +1,5 @@
 from typing import List
-from Parking_Lot import *
+from .Parking_Lot import *
 
 class Van (ParkingLot):
     def _init_(self, NCarro:int, Nsuv:int, Nvan:int, tipo_Carro:str, cochesVan: int, pagareVan: int):

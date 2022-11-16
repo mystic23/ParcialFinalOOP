@@ -58,4 +58,4 @@ a que codigos extensos sean mucho mas sencillos de entender
 
 
 ## Explicacion de UML
-primero creo una clase de parking lot con abstract method el cual le brundara a las clases hijas Car, Van, Sub, despues hereda de verificacion y por agregacion se agrega el Usuario al parking lot, ti
+con este uml se busca simular un parqueadero usando primero creo una clase de parking lot con abstract method el cual le brundara a las clases hijas Car, Van, Sub, despues hereda de verificacion y por agregacion se agrega el Usuario al parking lot.

@@ -55,3 +55,7 @@ estructura en donde se declara la existencia de los metodos,
 sin embargo, no se implementa funcionalidad y es util porque permite
 proporcionar funcionalidad predeterminada de las clases bases y ayuda
 a que codigos extensos sean mucho mas sencillos de entender 
+
+
+## Explicacion de UML
+primero creo una clase de parking lot con abstract method el cual le brundara a las clases hijas Car, Van, Sub, despues hereda de verificacion y por agregacion se agrega el Usuario al parking lot, ti

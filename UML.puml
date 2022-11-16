@@ -1,0 +1,45 @@
+@startuml Parqueadero
+
+class ParkingLot{
++Cantidad: int
++Ncarro: int
++NSuv: int 
++Nvan: int
++tipo_Carro:str
++plazas()
++Time()
++cobrohoras()
+}
+class Usuario{
++name:str
++contraseña: str
++registro: bool
++EliminarCuenta()
++AgregarCuenta()
++VerificarCuenta()
++CantidadCuentasCreadas()
+}
+class Verificacion{
++lugar:bool
+}
+class Car{
++CochesCar: int
++PagareCar: int
+}
+class Van{
++CochesVan: int
++PagareVan: int
+}
+class Suv{
++CochesSuv: int
++PagareSuv: int
+}
+
+
+ParkingLot *-- Usuario
+Car<|--  ParkingLot
+Van <|-- ParkingLot
+Suv<|-- ParkingLot
+ParkingLot<|-- Verificacion
+abc.ABC   <|--  ParkingLot
+@endumls
